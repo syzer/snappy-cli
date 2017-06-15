@@ -1,6 +1,8 @@
 Snappy-cli
 ==========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/snappy-cli.svg)](https://greenkeeper.io/)
+
 Installation
 ------------
 
