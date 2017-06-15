@@ -21,11 +21,11 @@
     "snappy": "bin/index.js"
   },
   "devDependencies": {
-    "chai": "^2.2.0",
-    "mocha": "^2.2.4"
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
   },
   "dependencies": {
-    "snappy": "^3.0.8",
-    "through2": "^0.6.5"
+    "snappy": "^6.0.0",
+    "through2": "^2.0.3"
   }
 }
