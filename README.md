@@ -1,4 +1,4 @@
-## CLI for snappyjs
+## CLI for node-snappy
 
 Simple stdio-capable CLI utility for [node-snappy](https://github.com/kesla/node-snappy).
 
