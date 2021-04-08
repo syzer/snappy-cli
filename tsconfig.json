@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "noImplicitUseStrict": true,
+        "types": [
+            "jest",
+            "node"
+        ],
+        "module": "esnext",
+        "esModuleInterop": true,
+        "target": "ES6",
+        "rootDir": "./",
+        "allowUnusedLabels": false,
+        "noUnusedLocals": true,
+        "strictFunctionTypes": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "traceResolution": false,
+        "lib": [
+            "es5",
+            "es2015.promise",
+            "es2017.object",
+            "dom",
+            "scripthost",
+            "es2015",
+            "es2015.collection",
+            "es2015.proxy"
+        ],
+        // "incremental": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*"]
+        },
+    },
+    "exclude": [
+        "node_modules",
+        "bin",
+        "test/fixtures",
+        "*.config.js"
+    ]
+}

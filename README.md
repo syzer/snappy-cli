@@ -1,49 +1,18 @@
-Snappy-cli
-==========
+## CLI for node-snappy
 
-Installation
-------------
+Simple stdio-capable CLI utility for [node-snappy](https://github.com/kesla/node-snappy).
 
-        npm install -g snappy-cli
+```
+snappy [input] [output]
 
-Why
-===
-Snappy is compression algorithm, and it is really FAST, one fastest on market.
+Commands:
+  snappy c [input] [output]                        [default] [aliases: compress]
+  snappy d [input] [output]                                [aliases: decompress]
 
-
-Usage -compression:
-===================
-
-        snappy test.tar test.tar.sz
-
-
-Usage with tar:
-===============
-
-        tar -cvf test.tar ./directory
-        snappy test.tar test.tar.sz
-
-
-Usage -decompression:
-=====================
-This will create test.tar file
-
-        snappy -e test.tar.sz
-
-
-Usage -decompression with tar:
-==============================
-
-        snappy -e test.tar.sz
-        tar -xvf test.tar
-
-Development
-============
-        git checkout
-        cd snappy-cli
-        npm install --save-dev
-        npm install -g
-
-TODO:
-=====
-[ ] Compression of multiple files without tar
+Options:
+      --version   Show version number                                  [boolean]
+  -i, --input     file path or will read from stdin             [default: stdin]
+  -o, --output    file path or will write to stdout            [default: stdout]
+  -k, --encoding  input data encoding                          [default: "utf8"]
+  -h, --help      Show help                                            [boolean]
+```
